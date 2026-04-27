@@ -6,10 +6,9 @@ import threading
 import ntplib
 from datetime import datetime, timedelta
 
-# 全局变量：目标软件运行地址
-TARGET_PROGRAM_PATH = ""
-
-
+"""
+游戏条件启动器，带简易ui
+"""
 class GameConditionLauncher(tk.Tk):
     def __init__(self):
         super().__init__()
